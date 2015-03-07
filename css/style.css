@@ -1,0 +1,348 @@
+/* Custom fonts used: Open Sans, Ropa Sans from Google Fonts; Bebas Neue (freeware font) */
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+
+/*
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+*/
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -35px; /* negative bottom margin is used to leave space for footer */
+}
+
+/* push is used to prevent content from overflowing into footer's space */
+footer, .push {
+	height: 35px; 
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+p.text {
+	line-height: 20px;
+}
+
+p.small-margin {
+	margin-bottom: 12px;
+}
+
+.info p.text {
+	line-height: 1.45;
+}
+
+.wrapper, footer {
+	width: 960px;
+}
+
+span.muted {
+	font-size: 12px;
+	display: block;
+	margin: 5px 0;
+}
+
+a:hover {
+	color: #df0000 !important;
+}
+
+footer {
+	margin: 0 auto;
+	box-sizing: border-box;
+	border-top: 1px solid #dedede;
+	color: #666;
+	font-family: "Open Sans", sans-serif;
+	text-align: right;
+}
+
+footer span {
+	font-size: 12px;
+	margin: 10px;
+	display: block;
+}
+
+.header {
+	border-bottom: 1px solid #dedede;
+	height: 70px;
+}
+
+.header .name {
+	float: left;
+	font-family: "bebas_neuebook", sans-serif;
+	font-size: 40px;
+	margin: 15px 0 0 25px;
+}
+
+.header ul.menu {
+	float: right;
+	width: auto;
+	margin: 28px 20px 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.header ul.menu li {
+	float: left;
+	text-align: center
+}
+
+.header ul.menu li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #666666;
+	margin: 15px;
+	font-family: "Ropa Sans", Georgia, sans-serif;
+}
+
+.header ul.menu li a.active {
+	text-decoration: underline;
+}
+
+.border-bottom-padding {
+	padding-bottom: 30px;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #dedede;
+}
+
+img.image-rounded {
+	width: 200px;
+	border-radius: 125px;
+}
+
+img.headshot {
+	display: inline-block;
+	margin-right: 30px;
+	float: right;
+}
+
+.content {
+	padding: 20px;
+	padding-top: 30px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+}
+
+.row.info {
+	margin-top: 20px;
+}
+
+.banner p {
+	display: inline-block;
+	font-family: "Ropa Sans", sans-serif;
+}
+
+.banner-text {
+	margin-top: 70px;
+}
+
+.headline-large {
+	font-size: 32px; 
+}
+
+.headline-small {
+	font-size: 22px;
+}
+
+a.light-gray {
+	color: #999;
+}
+
+span.item , a.presence-item {
+	display: block;
+	color: #df0000;
+	text-decoration: none;
+	margin-bottom: 8px;
+	font-size: 15px;
+}
+
+span.item {
+	color: #666;
+}
+
+/* Custom grid declaration */
+.row {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.row:before, .row:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+.column {
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.column-centered {
+	float: none;
+	margin: 0 auto;
+}
+
+.column-3 {
+	width: 25%;
+}
+
+.column-4 {
+	width: 33.33%;
+}
+
+.column-5 {
+	width: 41.67%;
+}
+
+.column-6 {
+	width: 50%;
+}
+
+.column-7 {
+	width: 58.33%;
+}
+
+.column-8 {
+	width: 66.66%;
+}
+
+.column-9 {
+	width: 75%;
+}
+
+.column-10 {
+	width: 83.33%;
+}
+
+.column-11 {
+	width: 91.67%;
+}
+
+.column-12 {
+	width: 100%;
+}
+
+.padding-medium {
+	padding: 0 20px;
+}
+
+.padding-large {
+	padding: 0 25px;
+}
+
+.border-left {
+	border-left: 1px solid #dedede;	
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+h3.heading {
+	font-family: "Ropa Sans";
+	text-transform: uppercase;
+	font-size: 15px;
+	margin: 5px 0;
+}
+
+textarea.wide {
+	height: 100px;
+	width: 75%;
+}
+
+footer .footer-menu {
+	float: left;
+	width: auto;
+	margin: 7px;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+footer .footer-menu li {
+	float: left;
+	text-align: center
+}
+
+footer .footer-menu li a {
+	text-decoration: none;
+	color: #666666;
+	margin: 0 10px;
+	font-size: 12px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.email-link {
+	cursor: pointer;
+}
+
+.contact input, .contact textarea {
+	margin: 10px 0;
+	font-size: 15px;
+	border: 1px solid #c0c0c0;
+	font-family: 'Open Sans', sans-serif;
+	color: #4a4a4a;
+	padding: 12px 15px 11px;
+	width: 100%;
+	box-sizing: border-box;
+	height: 45px;
+}
+
+.contact textarea {
+	height: 100px;
+}
+
+.contact .captcha {
+	margin-bottom: 10px;
+}
+
+.contact button {
+	height: 40px;
+	width: 100px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	border: none;
+	background: #c0392b;
+	color: white;
+	cursor: pointer;
+}
+
+.alert {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.alert.error {
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
+
+.alert.success {
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+
+.project-thumbnail {
+	width: 100%;
+}

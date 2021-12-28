@@ -1,108 +1,118 @@
-
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Keshav Varma | Projects</title>
-		<meta name="author" content="Keshav Varma">
-		<meta name="description" content="Keshav Varma is a developer from the Bay Area. He's likes to make cool things.">
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="fonts/stylesheet.css">
-		<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-	</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Keshav Varma | Projects</title>
+    <meta name="author" content="Keshav Varma" />
+    <meta
+      name="description"
+      content="Keshav Varma is a developer from the Bay Area. He's likes to make cool things."
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Ropa+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
 
-	<body>
-		<!-- begin: wrapper -->
-		<div class="wrapper">
-			<div class="header">
-				<a href="index.html" class="light-gray">
-					<div class="name">
-						Keshav Varma
+  <body>
+    <!-- begin: wrapper -->
+    <div class="wrapper">
+      <div class="header">
+        <a href="index.html" class="light-gray">
+          <div class="name">Keshav Varma</div>
+        </a>
+        
+			<ul class="menu">
+				<li><a href="index.html" class="">About</a></li>
+				<li><a href="projects.html" class="active">Projects</a></li>
+				<li><a href="hacks.html" class="">Hackathons</a></li>
+			</ul>
+      </div>
+
+      <div class="content">
+		<div class="row">
+			<div
+			  class="
+				column column-12
+				text-center
+				border-bottom border-bottom-padding
+			  "
+			>
+			  Here are a few personal projects I've worked on.
+			</div>
+		  </div>
+
+		<div class="row info">
+			<div class="column column-10 column-centered">
+				
+				<div class="row">
+					<div class="column column-3 padding-medium text-right">
+						<h3 class="heading">unifi-cam-proxy</h3>
+						<p>
+							<a class="presence-item" target="_blank"
+								href="http://github.com/keshavdv/unifi-cam-proxy">GitHub</a>
+						</p>
 					</div>
-				</a>
-				<ul class="menu">
-					<li><a href='index.html' class=''>About</a></li><li><a href='hacks.html' class=''>Hacks</a></li><li><a href='projects.html' class='active'>Projects</a></li><li><a href='contact.html' class=''>Contact</a></li>				</ul>
-			</div>	
-		
-<div class="content">
-	<div class="row">
-		<div class="column column-12 text-center border-bottom border-bottom-padding">
-			Here are some past random projects I've worked on...
+					<div class="column column-8">
+						<p class="text small-margin">
+							A project that enables using non-Ubiquiti cameras within the UniFi Protect ecosystem.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row info">
+			<div class="column column-10 column-centered">
+				<div class="row">
+					<div class="column column-3 padding-medium text-right">
+						<h3 class="heading">Spotifly</h3>
+						<p>
+							<a class="presence-item" target="_blank"
+								href="http://github.com/keshavdv/spotifly">GitHub</a>
+						</p>
+					</div>
+					<div class="column column-8">
+						<p class="text small-margin">
+							An effort in reverse-engineering when Spotify Connect was first released, Spotifly
+							allowed you to turn any device into a Spotify Connect
+							enabled endpoint. Simply start the spotifly server and the
+							device will show up on your phone as a Connect device.
+						</p>
+						<img src="assets/thumbs/spotifly.png" class="project-thumbnail" alt="Spotifly" />
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
-				<div class="row info">
-				<div class="column column-10 column-centered">
-					<div class="row">
-						<div class="column column-3 padding-medium text-right">
-							<h3 class="heading">DroidAuto</h3>
-							<p>
-																
-							</p>
-						</div>	
-						<div class="column column-8">
-							<p class="text small-margin">
-								 DroidAuto is an attempt to reverse-engineer the Android Auto protocol and create a working emulator. The end goal is to allow an Android tablet to act as a display for Android Auto and eventually be mounted inside a car. Still very much a work in progress.							</p>
-													</div>
-					</div>
-				</div>
+      </div>
 
-			</div>
-				<div class="row info">
-				<div class="column column-10 column-centered">
-					<div class="row">
-						<div class="column column-3 padding-medium text-right">
-							<h3 class="heading">Spotifly</h3>
-							<p>
-								<a class='presence-item' target='_blank' href='http://keshavdv.github.io/spotifly'>GitHub</a>								
-							</p>
-						</div>	
-						<div class="column column-8">
-							<p class="text small-margin">
-								 Spotifly allows you to turn any device into a Spotify Connect enabled endpoint. Simply start the spotifly server and the device will show up on your phone as a Connect device.							</p>
-															<img src="assets/thumbs/spotifly.png" class="project-thumbnail" alt="Spotifly"/>
-													</div>
-					</div>
-				</div>
+      <!-- end: wrapper -->
+      <div class="push"></div>
+    </div>
+    <footer>
+      <ul class="footer-menu">
+        <li><a target="_blank" href="http://github.com/keshavdv">Github</a></li>
+        <li>
+          <a target="_blank" href="http://linkedin.com/in/keshavdv">LinkedIn</a>
+        </li>
+        <li><a target="_blank" class="email-link">Email</a></li>
+      </ul>
 
-			</div>
-				<div class="row info">
-				<div class="column column-10 column-centered">
-					<div class="row">
-						<div class="column column-3 padding-medium text-right">
-							<h3 class="heading">Gunn Robotics</h3>
-							<p>
-								<a class='presence-item' target='_blank' href='http://gunnrobotics.com'>Website</a>								
-							</p>
-						</div>	
-						<div class="column column-8">
-							<p class="text small-margin">
-								 A Drupal-powered website for my local high school robotics team allowing for convenient content management.							</p>
-															<img src="assets/thumbs/grt.png" class="project-thumbnail" alt="Gunn Robotics"/>
-													</div>
-					</div>
-				</div>
-
-			</div>
-	</div>
-
-  		<!-- end: wrapper -->
-  			<div class="push"></div>
-  		</div>
-  		<footer>
-  			<ul class="footer-menu">
-  				<li><a target="_blank" href="http://github.com/keshavdv">Github</a></li>
-  				<li><a target="_blank" href="http://linkedin.com/in/keshavdv">LinkedIn</a></li>
-  				<li><a target="_blank" class="email-link">Email</a></li>
-			</ul>
-
-  			<span>Copyright &copy; 2015</span>
-  		</footer>
-	  	<script src="js/script.js"></script>
-	</body>
+      <span>Copyright &copy; 2021</span>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
 </html>
